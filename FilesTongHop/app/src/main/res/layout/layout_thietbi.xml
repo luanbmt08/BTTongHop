@@ -33,13 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:id="@+id/mota"
-                    android:textSize="15dp"
-                    android:hint="Mô tả"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

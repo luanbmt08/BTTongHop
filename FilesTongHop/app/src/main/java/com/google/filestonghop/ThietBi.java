@@ -1,33 +1,27 @@
 package com.google.filestonghop;
 
 public class ThietBi {
-    private String tenmon;
-    private String mota;
+    private String name;
+
     private String gia;
     private int hinh;
 
-    public ThietBi(String tenmon, String mota, String gia, int hinh) {
-        this.tenmon = tenmon;
-        this.mota = mota;
+    public ThietBi(String name,  String gia, int hinh) {
+        this.name = name;
+
         this.gia = gia;
         this.hinh = hinh;
     }
 
-    public String getTenmon() {
-        return tenmon;
+    public String getName() {
+        return name;
     }
 
-    public void setTenmon(String tenmon) {
-        this.tenmon = tenmon;
+    public void setTenmon(String name) {
+        this.name = name;
     }
 
-    public String getMota() {
-        return mota;
-    }
 
-    public void setMota(String mota) {
-        this.mota = mota;
-    }
 
     public String getGia() {
         return gia;
